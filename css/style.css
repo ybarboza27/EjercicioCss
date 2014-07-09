@@ -1,0 +1,120 @@
+/*!
+ * All Rights Reserved
+ * This software is proprietary information of
+ * Intelligent Sense
+ * Use is subject to license terms.
+ * Filename: style.scss
+ */
+/*
+ * Author:      kchaves@intelligentsense.com
+ * Date:        28/10/2013
+ * Description: Main COMPASS file. Import all the partials you need here.
+ */
+/**
+* Mixin for image replacement
+*/
+/* ===================
+    ALL: Fonts
+   =================== */
+
+@font-face {
+  font-family: 'Lobster';
+  src: url("../fonts/Lobster.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Open';
+  src: url("../fonts/OpenSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Shadows';
+  src: url("../fonts/ShadowsIntoLight.ttf") format("truetype");
+}
+
+
+.title-page {
+  text-align: center;
+}
+
+.social-box {
+  width: 24%;
+  height: 220px;
+  margin: 20px;
+  display: inline-block;
+  text-align: left;
+  overflow: hidden;
+  padding: 0px 10px 10px 10px;
+}
+
+.boxes-container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.social-box-facebook {
+  background-color: #0000CD;
+}
+
+.social-box-twitter {
+  background-color: #00BFFF;
+}
+
+.social-box-instagram {
+  background-color: #A0522D;
+}
+
+.font-social-box-facebook {
+  font-family: "Lobster";
+}
+
+.font-social-box-twitter {
+  font-family: 'Shadows';
+}
+
+.font-social-box-instagram {
+  font-family: "Open";
+}
+
+.font-color-social-box {
+  color: white;
+}
+
+.size-icon {
+  width: 32px;
+  height: 33px;
+  margin: 0 auto;
+  position: absolute;
+  top: 90%;
+}
+
+
+.icon-facebook {
+    background: url('../img/iconos.png') no-repeat 0 -73px;
+    left: 32%;
+}
+
+.icon-twitter {
+  background: url('../img/iconos.png') no-repeat 0 -109px;
+  left: 48%;
+}
+
+.icon-instagram {
+  background: url('../img/iconos.png') no-repeat 0 -731px;
+  left: 65%;
+}
+
+.icon-facebook:hover {
+    box-shadow: 0px 5px 0px 0px #000000; 
+}
+
+.icon-twitter:hover {
+    box-shadow: 0px 5px 0px 0px #000000; 
+}
+
+.icon-instagram:hover {
+    box-shadow: 0px 5px 0px 0px #000000; 
+}
+
+
+
