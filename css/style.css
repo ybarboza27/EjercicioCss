@@ -45,6 +45,7 @@
   text-align: left;
   overflow: hidden;
   padding: 0px 10px 10px 10px;
+  position: relative;
 }
 
 .boxes-container {
@@ -85,23 +86,23 @@
   height: 33px;
   margin: 0 auto;
   position: absolute;
-  top: 90%;
+  top: 80%;
 }
 
 
 .icon-facebook {
     background: url('../img/iconos.png') no-repeat 0 -73px;
-    left: 32%;
+    left: 40%;
 }
 
 .icon-twitter {
   background: url('../img/iconos.png') no-repeat 0 -109px;
-  left: 48%;
+  left: 40%;
 }
 
 .icon-instagram {
   background: url('../img/iconos.png') no-repeat 0 -731px;
-  left: 65%;
+  left: 40%;
 }
 
 .icon-facebook:hover {
