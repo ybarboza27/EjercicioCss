@@ -38,9 +38,9 @@
 }
 
 .social-box {
-  width: 24%;
+  width: 72%;
   height: 220px;
-  margin: 20px;
+  margin: 30px;
   display: inline-block;
   text-align: left;
   overflow: hidden;
@@ -118,4 +118,19 @@
 }
 
 
+@media only screen and (max-width:600px) {
+  .social-box-facebook {
+    background-color: #27782d;
+  } 
 
+  .social-box-twitter {
+    background-color: #f42929;
+  }
+
+  .social-box-instagram {
+    background-color: #782740;
+  }
+
+
+
+}
